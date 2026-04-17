@@ -1,4 +1,4 @@
-# CS519 — Scientific Research Methodology
+# CS2205 — Scientific Research Methodology
 
 <p align="center">
   <a href="https://www.uit.edu.vn/"><img src="assets/UIT_logo.svg" alt="UIT Logo" width="180"></a>
@@ -9,7 +9,7 @@
 ## Giới thiệu
 
 - **Tên môn học:** PHƯƠNG PHÁP LUẬN NGHIÊN CỨU KHOA HỌC — Scientific Research Methodology
-- **Mã môn:** CS519
+- **Mã môn:** CS2205
 
 ### Giảng viên
 
