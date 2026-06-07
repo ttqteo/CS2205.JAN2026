@@ -3,13 +3,13 @@
 <p align="center">
   <a href="https://www.uit.edu.vn/"><img src="assets/UIT_logo.svg" alt="UIT Logo" width="180"></a>
 </p>
-<h1 align="center"><b>CS2205.CH203 — Phương pháp Nghiên cứu Khoa học</b></h1>
+<h1 align="center"><b>CS2205.JAN2026 — Phương pháp Nghiên cứu Khoa học</b></h1>
 <p align="center"><i>Scientific Research Methodology</i></p>
 
 ## Giới thiệu
 
 - **Tên môn học:** PHƯƠNG PHÁP LUẬN NGHIÊN CỨU KHOA HỌC — Scientific Research Methodology
-- **Mã môn:** CS2205.CH203
+- **Mã môn:** CS2205.JAN2026
 
 ### Giảng viên
 
