@@ -23,17 +23,20 @@
 
 ## Đề tài
 
-**Patch-Aware Taint-Guided PoV Synthesis for Recurring Web Vulnerability Detection**
-Recurring Vulnerability Detection cho hệ sinh thái npm/Node.js — program analysis + PoV synthesis để validate.
+**Tổng hợp bằng chứng khai thác dựa trên phân tích vết nhiễm vi phân cho lỗ hổng web npm**
+_Differential Taint-Guided Proof-of-Vulnerability Synthesis for NPM Web Vulnerabilities_
 
-- **Hướng tiếp cận:** taint signature representation + cross-project matching
-- **Case study đầu tiên:** CVE-2019-10744 (lodash prototype pollution)
-- **Nền tảng lý thuyết:** AntMan (ISSTA 2025), NodeMedic-FINE (NDSS 2025)
+Sinh PoV cho hệ sinh thái npm/Node.js dựa trên phân tích vết nhiễm vi phân từ bản vá — so sánh đường truyền dữ liệu trước/sau khi vá, trích ràng buộc bị thiếu và dùng ràng buộc đó dẫn đường sinh payload khai thác.
+
+- **Hướng tiếp cận:** differential taint analysis từ bản vá → trích ràng buộc → guided PoV synthesis
+- **Phạm vi lỗ hổng:** Command Injection (CWE-77/78), Path Traversal (CWE-22), Prototype Pollution (CWE-1321)
+- **Tập đánh giá:** SecBench.js
+- **Baseline so sánh:** NodeMedic-FINE (NDSS 2025), PoCGen (2025)
 
 ### Câu hỏi nghiên cứu
 
-- **RQ chính:** Taint-signature matching có phát hiện recurring vulnerabilities trên npm chính xác hơn code-clone-based approaches không?
-- **RQ phụ:** PoV synthesis có cải thiện precision của RVD không?
+- **RQ chính:** Ràng buộc trích từ bản vá có giúp sinh PoV cho các lỗ hổng mà công cụ không dùng bản vá khó xử lý không?
+- **RQ phụ:** Nguồn ràng buộc từ bản vá có bổ sung cho các nguồn ràng buộc hiện có (NodeMedic-FINE, PoCGen) không?
 
 ## Tài liệu
 
