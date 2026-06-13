@@ -1,4 +1,4 @@
-# CS2205.CH203 — Scientific Research Methodology
+# CS2205.JAN2026
 
 <p align="center">
   <a href="https://www.uit.edu.vn/"><img src="assets/UIT_logo.svg" alt="UIT Logo" width="180"></a>
