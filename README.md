@@ -34,3 +34,11 @@ Recurring Vulnerability Detection cho hệ sinh thái npm/Node.js — program an
 
 - **RQ chính:** Taint-signature matching có phát hiện recurring vulnerabilities trên npm chính xác hơn code-clone-based approaches không?
 - **RQ phụ:** PoV synthesis có cải thiện precision của RVD không?
+
+## Tài liệu
+
+| Loại         | Tệp                                                                          |
+| ------------ | ---------------------------------------------------------------------------- |
+| Báo cáo (Doc) | [Final Report — Doc](Quang%20Tr%E1%BA%A7n%20T%C3%BA%20-%20CS2205.JAN2026.DeCuong.FinalReport.Template.Doc.pdf) |
+| Slide        | [Final Report — Slide](Quang%20Tr%E1%BA%A7n%20T%C3%BA%20-%20CS2205.JAN2026.DeCuong.FinalReport.Template.Slide.pdf) |
+| Poster       | [Final Report — Poster](Quang%20Tr%E1%BA%A7n%20T%C3%BA%20-%20CS2205.JAN2026.DeCuong.FinalReport.Template.Poster.png) |
