@@ -70,8 +70,11 @@ style: |
   /* --- logo UIT góc phải, hiện trên MỌI slide (qua directive header:) --- */
   header { position:absolute; top:9px; right:16px; left:auto; margin:0; padding:0;
            background:none; box-shadow:none; z-index:40; }
-  header img { height:46px; display:block; background:#ffffff; border-radius:8px;
-               padding:4px 7px; box-shadow:0 1px 5px rgba(0,0,0,.22); }
+  header img { height:52px; width:52px; box-sizing:border-box; display:block;
+               object-fit:contain; background:#ffffff; border-radius:50%;
+               padding:6px; box-shadow:0 1px 5px rgba(0,0,0,.22); }
+  /* --- slide bìa (trang 1): logo trần, KHÔNG chip trắng / đổ bóng --- */
+  section.cover header img { background:none; box-shadow:none; padding:0; }
   /* --- slide bìa / cảm ơn --- */
   section.lead { text-align:center; justify-content:flex-start; }
   /* hộp tiêu đề rộng cả slide, chứa cả title + subtitle */
@@ -98,7 +101,7 @@ footer: '<span>Your Name</span><span>Title</span><span>January 14, 2026</span><s
 header: '<img src="assets/UIT_logo.svg" alt="UIT">'
 ---
 
-<!-- _class: lead -->
+<!-- _class: lead cover -->
 
 <div class="titlebox">
 
