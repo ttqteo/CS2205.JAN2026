@@ -170,7 +170,7 @@ style: |
     border-radius:999px; padding:3px 12px; margin:3px 4px 3px 0; font-size:18px; }
   /* sơ đồ (ảnh SVG pre-render từ Mermaid) */
   .diagram { text-align:center; margin-top:12px; }
-  .diagram img { max-height:300px; width:auto; border-radius:10px; box-shadow:0 4px 16px rgba(15,29,56,.12); }
+  .diagram img { max-height:300px; width:auto; }
   /* khoảng cách dọc giữa các block component (tránh dính nhau) */
   .box, .warn, .pipeline, .grid2, .cols, pre, table { margin-top:16px; margin-bottom:16px; }
   .mono { margin:8px 0; }
